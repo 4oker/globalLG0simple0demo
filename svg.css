@@ -1,0 +1,31 @@
+.svgt {
+    position: absolute;
+    width:600px;
+    height:600px;
+}
+body {
+    display: table;
+    width:100%;
+    background-size:  cover;
+}
+.st0{
+    fill: none;
+    stroke:blue;
+    stroke-width: 3;
+    stroke-miterlimit: 10;
+    stroke-dashoffset: 0;
+    stroke-dasharray: 40;
+    }
+
+    @keyframes animate {
+        0% {
+            opacity: 0;
+            fill: none;
+            stroke-dashoffset: 40;
+        }
+        100% {
+            opacity: 10;
+            fill: green;
+            stroke-dashoffset: 0;
+        }
+    }
