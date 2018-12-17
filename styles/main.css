@@ -33,9 +33,6 @@
 	width: 30%;
 	
 }
-
-
-
 .svg-logo {
 	
 	left: 50px;
@@ -1008,8 +1005,9 @@ background-color: #9e7575;
 						position: absolute;
 						bottom: 5%;
 						left: 10%;
-						font-weight: 500;
-						color: rgb(34, 32, 32);
+						line-height: 1.3rem;
+						font-weight: 400;
+						color: whitesmoke;
 					}
 					
 					
@@ -1068,10 +1066,7 @@ background-color: #9e7575;
 			}
 
 			.image-9{
-				background-image: url("file:///C:/Users/HP/Desktop/project/bnm.jpg");
-				background-size: cover;
-				background-repeat: no-repeat;
-				background-position: left center;
+				
 				cursor: pointer;
 				overflow: hidden;
 				transition: 400ms;
@@ -1571,18 +1566,15 @@ opacity: 0.6;
 		.image-overlay .overlay-title{
 
 position: absolute;
-
 bottom: 32%;
-
 left: 10%;
-
-font-size: 20px;
-
-color: rgb(34, 32, 32);
-
+font-size: 22px;
+line-height: 1.3rem;
+font-weight: 600;
+color: rgb(62, 60, 60);
 text-transform: uppercase;
 
-font-weight: 700;
+
 
 }
 		
@@ -1593,8 +1585,9 @@ font-weight: 700;
 			position: absolute;
 			bottom: 5%;
 			left: 10%;
-			font-weight: 500;
-			color: rgb(34, 32, 32);
+			
+			font-weight: 400;
+			color: rgb(62, 60, 60);
 		}
 		
 		
@@ -1669,7 +1662,7 @@ font-size: 12px;
 	
 font-weight: 500;
 	
-color: white;
+/* color: white; */
 }
 .image-overlay-first .overlay-btn{
 	
@@ -1747,13 +1740,10 @@ a.overlay-btn:hover{
 	font-weight: 600;
 }
 .image-9{
-	background-image: url("file:///C:/Users/HP/Desktop/project/bnm.jpg");
-	background-size: cover;
-    background-repeat: no-repeat;
-    background-position: left center;
+	
 	cursor: pointer;
 	background-color: rgba(0, 0, 0, .8);
-	
+	color: wheat;
 }
 
 .image-9:hover{
@@ -2532,8 +2522,29 @@ h3.back-txt {
 /*SUBSCRIBE-CONTAINER min width 1000px*/
 
 @media screen and (min-width: 1000px) {
+
+.subscribe {
+	text-align: center;
+	position: relative;
+}	
+.subscribe-one{
+	font-size: 20px;
+	padding-top: 20px;
+	font-weight: 400;
+	line-height: 1.3rem;
+}
+.subscribe-two{
+	text-align: center;
+	padding-left: 100px;
+	padding-right: 100px;
+	position: relative;
+	font-size: 20px;
+	padding-top: 20px;
+	font-weight: 400;
+	line-height: 1.3rem;
+}
 .subscribe-container {
-	background-image: url("file:///C:/Users/HP/Desktop/project/gfgfgf.jpg");
+	background-image: url("file:///C:/Users/HP/Desktop/global-log/globalLG0simple0demo/gfgfgf.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: left center;
