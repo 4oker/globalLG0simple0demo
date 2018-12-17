@@ -13,11 +13,11 @@ $('.owl-carousel').owlCarousel({
 
 
 
-
+//changing nav-menu while resizing desk
 function myFunction(x) {
   var k = document.getElementById("myTopnav");
   
-  if (x.matches) { // If media query matches
+  if (x.matches) { 
 
         k.className = "topnav responsive";
     }
@@ -31,7 +31,18 @@ myFunction(x)
 x.addListener(myFunction)
 
 
- 
+
+//Open nav-menu//
+function respMenu() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+
 
 
     function demo1() {

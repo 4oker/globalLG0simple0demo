@@ -167,7 +167,7 @@
 
 
 	.topnav.responsive {
-		position: relative;
+	position: relative;
 	width: 100%;
 	}
 	
@@ -2594,7 +2594,7 @@ h3.back-txt {
 /*SUBSCRIBE-CONTAINER max-width 600px*/
 @media screen and (max-width: 600px) {
 	.subscribe-container {
-		background-image: url("file:///C:/Users/HP/Desktop/project/gfgfgf.jpg");
+		background-image: url("file:///C:/Users/HP/Desktop/global-log/globalLG0simple0demo/gfgfgf.jpg");
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: left center;
