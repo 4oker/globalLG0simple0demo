@@ -2544,7 +2544,7 @@ h3.back-txt {
 	line-height: 1.3rem;
 }
 .subscribe-container {
-	background-image: url("file:///C:/Users/HP/Desktop/global-log/globalLG0simple0demo/gfgfgf.jpg");
+	background-image: url("file:///C:/Users/HP/Desktop/global-log/globalLG0simple0demo13245/background.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: left center;
@@ -2594,7 +2594,7 @@ h3.back-txt {
 /*SUBSCRIBE-CONTAINER max-width 600px*/
 @media screen and (max-width: 600px) {
 	.subscribe-container {
-		background-image: url("file:///C:/Users/HP/Desktop/global-log/globalLG0simple0demo/gfgfgf.jpg");
+		background-image: url("file:///C:/Users/HP/Desktop/global-log/globalLG0simple0demo13245/background.jpg");
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: left center;
